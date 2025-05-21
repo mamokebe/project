@@ -23,7 +23,7 @@ const port = process.env.PORT || 5000;
 // Allowed origins for CORS
 
 // Update this array with your frontend URLs deployed
-const allowedOrigins = ['http://localhost:5173','http://3.83.201.11:3000'];
+const allowedOrigins = ['http://localhost:5173','http://18.205.24.252:3000'];
 
 app.post("/stripe", express.raw({type:"application/json"}), stripeWebhook)
 
